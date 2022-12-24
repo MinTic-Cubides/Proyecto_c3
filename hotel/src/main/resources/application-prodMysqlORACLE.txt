@@ -1,0 +1,9 @@
+#Produccion con BD en Local en ORACLE BD
+# Falta configurar la direccion
+spring.datasource.url=jdbc:mysql://localhost:3306/maraton 
+# Falta configurar el usuriao y contrasena
+spring.datasource.username=root
+spring.datasource.password=contrasena
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+server.port=80
